@@ -18,7 +18,10 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="@dimen/textView__padding"
+        android:paddingLeft="@dimen/textView__paddingLeft"
+        android:paddingRight="@dimen/textView__paddingRight"
+        android:paddingTop="@dimen/textView__paddingTop"
+        android:paddingBottom="@dimen/textView__paddingBottom"
         android:id="@+id/textView__udacity-heading"
         android:text="@string/udacity_heading"
         android:textSize="@dimen/textView__heading" />
@@ -26,35 +29,42 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="@dimen/textView__padding"
-        android:id="@+id/textView__address-street"
-        android:text="@string/street_address"
-        android:textSize="@dimen/textView__subheading" />
+        android:paddingLeft="@dimen/textView__paddingLeft"
+        android:paddingRight="@dimen/textView__paddingRight"
+        android:paddingTop="@dimen/textView__paddingTop"
+        android:paddingBottom="@dimen/textView__paddingBottom"
+        android:text="@string/address"
+        android:textSize="@dimen/textView__subheading"
+        android:autoLink="map"
+        android:drawableStart="@drawable/ic_location_on_black_24dp"
+        android:drawablePadding="@dimen/textView__drawablePadding"/>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="@dimen/textView__padding"
-        android:id="@+id/textView__address-state"
-        android:text="@string/state_address"
-        android:textSize="@dimen/textView__subheading" />
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:padding="@dimen/textView__padding"
+        android:paddingLeft="@dimen/textView__paddingLeft"
+        android:paddingRight="@dimen/textView__paddingRight"
+        android:paddingTop="@dimen/textView__paddingTop"
+        android:paddingBottom="@dimen/textView__paddingBottom"
         android:id="@+id/textView__contact-number"
         android:text="@string/contact_number"
         android:textSize="@dimen/textView__subheading"
-        android:autoLink="phone" />
+        android:autoLink="phone"
+        android:drawableStart="@drawable/ic_phone_black_24dp"
+        android:drawablePadding="@dimen/textView__drawablePadding" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="@dimen/textView__padding"
+        android:paddingLeft="@dimen/textView__paddingLeft"
+        android:paddingRight="@dimen/textView__paddingRight"
+        android:paddingTop="@dimen/textView__paddingTop"
+        android:paddingBottom="@dimen/textView__paddingBottom"
         android:id="@+id/textView__udacity-website"
         android:text="@string/udacity_website"
         android:textSize="@dimen/textView__subheading"
-        android:autoLink="web"/>
+        android:autoLink="web"
+        android:drawableStart="@drawable/ic_link_black_24dp"
+        android:drawablePadding="@dimen/textView__drawablePadding" />
 
 </LinearLayout>
