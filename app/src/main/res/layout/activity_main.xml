@@ -13,13 +13,14 @@
         android:id="@+id/imageView__udacity-image"
         android:src="@drawable/udacity"
         android:scaleType="fitStart"
-        android:adjustViewBounds="true" />
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/udacity_office_image_description" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:paddingLeft="@dimen/textView__paddingLeft"
-        android:paddingRight="@dimen/textView__paddingRight"
+        android:paddingStart="@dimen/textView__paddingStart"
+        android:paddingEnd="@dimen/textView__paddingEnd"
         android:paddingTop="@dimen/textView__paddingTop"
         android:paddingBottom="@dimen/textView__paddingBottom"
         android:id="@+id/textView__udacity-heading"
@@ -29,8 +30,8 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:paddingLeft="@dimen/textView__paddingLeft"
-        android:paddingRight="@dimen/textView__paddingRight"
+        android:paddingStart="@dimen/textView__paddingStart"
+        android:paddingEnd="@dimen/textView__paddingEnd"
         android:paddingTop="@dimen/textView__paddingTop"
         android:paddingBottom="@dimen/textView__paddingBottom"
         android:text="@string/address"
@@ -42,8 +43,8 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:paddingLeft="@dimen/textView__paddingLeft"
-        android:paddingRight="@dimen/textView__paddingRight"
+        android:paddingStart="@dimen/textView__paddingStart"
+        android:paddingEnd="@dimen/textView__paddingEnd"
         android:paddingTop="@dimen/textView__paddingTop"
         android:paddingBottom="@dimen/textView__paddingBottom"
         android:id="@+id/textView__contact-number"
@@ -56,8 +57,8 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:paddingLeft="@dimen/textView__paddingLeft"
-        android:paddingRight="@dimen/textView__paddingRight"
+        android:paddingStart="@dimen/textView__paddingStart"
+        android:paddingEnd="@dimen/textView__paddingEnd"
         android:paddingTop="@dimen/textView__paddingTop"
         android:paddingBottom="@dimen/textView__paddingBottom"
         android:id="@+id/textView__udacity-website"

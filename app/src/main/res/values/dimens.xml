@@ -2,9 +2,8 @@
 <resources>
     <dimen name="textView__heading">24sp</dimen>
     <dimen name="textView__subheading">16sp</dimen>
-    <dimen name="textView__padding">8dp</dimen>
-    <dimen name="textView__paddingLeft">16dp</dimen>
-    <dimen name="textView__paddingRight">16dp</dimen>
+    <dimen name="textView__paddingStart">16dp</dimen>
+    <dimen name="textView__paddingEnd">16dp</dimen>
     <dimen name="textView__paddingTop">8dp</dimen>
     <dimen name="textView__paddingBottom">8dp</dimen>
     <dimen name="textView__drawablePadding">8dp</dimen>
