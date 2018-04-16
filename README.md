@@ -27,3 +27,7 @@ Mountain View, CA 94043
 * XML must include a RelativeLayout or LinearLayout
 * ViewGroups contain at least one ImageView and at least one TextView
 * The project must have one or more ImageViews and TextViews
+
+### Screenshot
+
+![Screenshot 1](https://github.com/YaMo97/udacity-android-basics-first-project/blob/master/pics/1.png)
