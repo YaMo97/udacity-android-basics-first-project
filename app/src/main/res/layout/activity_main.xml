@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.udacity.android.basics.helloandroid.MainActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView__udacity-image"
+        android:src="@drawable/udacity"
+        android:scaleType="fitStart"
+        android:adjustViewBounds="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/textView__padding"
+        android:id="@+id/textView__udacity-heading"
+        android:text="@string/udacity_heading"
+        android:textSize="@dimen/textView__heading" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/textView__padding"
+        android:id="@+id/textView__address-street"
+        android:text="@string/street_address"
+        android:textSize="@dimen/textView__subheading" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/textView__padding"
+        android:id="@+id/textView__address-state"
+        android:text="@string/state_address"
+        android:textSize="@dimen/textView__subheading" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/textView__padding"
+        android:id="@+id/textView__contact-number"
+        android:text="@string/contact_number"
+        android:textSize="@dimen/textView__subheading"
+        android:autoLink="phone" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/textView__padding"
+        android:id="@+id/textView__udacity-website"
+        android:text="@string/udacity_website"
+        android:textSize="@dimen/textView__subheading"
+        android:autoLink="web"/>
+
+</LinearLayout>
