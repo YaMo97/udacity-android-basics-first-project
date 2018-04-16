@@ -1,12 +1,12 @@
-#udacity-android-basics-first-project
+# udacity-android-basics-first-project
 
-#Project Rubric
+# Project Rubric
 
-###Basic Project Requirements
+### Basic Project Requirements
 * Project is named HelloAndroid
 
 
-###Design Requirements
+### Design Requirements
 * Design includes, at minimum, the following text (business name, address, and phone number):
 
 ```
@@ -21,7 +21,7 @@ Mountain View, CA 94043
 
 * Design includes at least one image that the student feels represents the business in some way (creativity is fine, and encouraged!)
 
-###Code Requirements
+### Code Requirements
 
 * At least one ViewGroup is included
 * XML must include a RelativeLayout or LinearLayout
