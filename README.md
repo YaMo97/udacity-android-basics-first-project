@@ -1,6 +1,8 @@
 # udacity-android-basics-first-project
 
-# Project Rubric
+Make Your First Project: Lesson 5 - Google India Challenge Scholarship - Android Basics
+
+## Project Rubric
 
 ### Basic Project Requirements
 * Project is named HelloAndroid
